@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-1: 3.75rem;
+  --text-2: 2.25rem;
+  --text-3: 1.31rem;
+  --text-4: 1.125rem;
+  --primary-color: #F3EED9;
+  --secondary-color: #222C2A;
+  --third-color: #824936;
+}
+body{
+
+}
+.container {
+  display: flex;
+  max-width: 1128px;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 3rem auto;
+}
+.first-content {
+
+  background-color: var(--primary-color);
+}
